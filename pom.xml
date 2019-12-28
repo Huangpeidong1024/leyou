@@ -33,9 +33,9 @@
         <mapper.starter.version>2.1.2</mapper.starter.version>
         <druid.starter.version>1.1.9</druid.starter.version>
         <mysql.version>5.1.40</mysql.version>
-        <pageHelper.starter.version>1.2.3</pageHelper.starter.version>
+        <pageHelper.starter.version>1.2.10</pageHelper.starter.version>
         <leyou.latest.version>1.0.0-SNAPSHOT</leyou.latest.version>
-        <fastDFS.client.version>1.26.7</fastDFS.client.version>
+        <fastDFS.client.version>1.27</fastDFS.client.version>
     </properties>
 
     <dependencyManagement>
@@ -74,8 +74,8 @@
             </dependency>
             <!--FastDFS客户端-->
             <dependency>
-                <groupId>com.github.tobato</groupId>
-                <artifactId>fastdfs-client</artifactId>
+                <groupId>org.csource</groupId>
+                <artifactId>fastdfs-client-java</artifactId>
                 <version>${fastDFS.client.version}</version>
             </dependency>
         </dependencies>
